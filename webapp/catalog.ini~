@@ -1,0 +1,15 @@
+[uwsgi]
+module = wsgi
+uid = folletteLab
+gid = nginx
+
+http-socket = :5000
+
+master = true
+processes = 5
+
+socket = /tmp/catalog.sock
+chmod-socket = 666
+vacuum = true
+
+die-on-term = true
