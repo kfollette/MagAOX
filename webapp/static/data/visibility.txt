@@ -1,2 +1,0 @@
-# Target name                  ever observable                always observable              fraction of time observable
-Vega                           False                          False                          0.0                           
